@@ -1,0 +1,14 @@
+{
+  "extends": "@quasar/app/tsconfig-preset",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "target": "esnext",
+    "module": "esnext",
+    // this enables stricter inference for data properties on `this`
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+  }
+}
